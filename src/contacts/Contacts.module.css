@@ -1,0 +1,53 @@
+.contactsBlock {
+    /* min-height: 75vh; */
+    background-color: #e2caef;
+}
+
+.contactsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.titlePage {
+    background-color: burlywood;
+}
+
+.contactForm {
+    width: 50%;
+    background-color: rgb(121, 124, 126);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid;
+    min-height: 250px;
+    flex-wrap: nowrap; */
+}
+
+.contactForm input, .contactForm textarea {
+    width: 100%;
+}
+
+.sbmtBtn {
+    padding: 10px 20px;
+    background-color: blue;
+    cursor: pointer;
+    /*width: 75px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 30px; */
+}
+
+/* .inputFirst {
+    width: 220px;
+    margin-top: 60px;
+}
+
+.inputSecond {
+    width: 220px;
+    margin-top: 15px;
+}
+
+.texarea {
+    width: 220px;
+    margin-top: 25px;
+} */
